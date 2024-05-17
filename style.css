@@ -1,0 +1,41 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#currentImage {
+    height: 300px;
+    width: 300px;
+}
+
+.button {
+    padding: 3px;
+    border-radius: 7px;
+    border: none;
+    background-color: #1952f7;
+    color: #fff;
+    height: 30px;
+    width: 60px;
+    margin-bottom: 5px;
+}
+
+#restartButton {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
+}
+
+body {
+    background-image: url(images/Bacground.jpg);
+    color: #fff;
+}
+
+.text {
+    font-size: 40px;
+    margin: 1px;
+    font-family: "Bebas Neue", sans-serif;
+}
